@@ -1,7 +1,7 @@
 # Amazon_Vine_Analysis
 
 ## Overview
-The purpose of this analysis is to determine if there is any bias toward favorable reviews from Amazon Vine members when reviewing video game products. Data was pulled from the video game dataset at https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt. The data was then filtered to contain only reviews with 20 or more votes where at least 50% of the votes rated it as helpful. It was then split between reviews written by Vine members and those by non-Vine members. Relevent statistics were then computed from the two dataframes and stored in a summary dataframe for analysis.
+The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products from members paid by the program. Companies pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review. The purpose of this analysis is to determine if there is any bias toward favorable reviews from Amazon Vine members when reviewing video game products. Data was pulled from the video game dataset at https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt. The data was then filtered to contain only reviews with 20 or more votes where at least 50% of the votes rated it as helpful. It was then split between reviews written by Vine members and those by non-Vine members. Relevent statistics were then computed from the two dataframes and stored in a summary dataframe for analysis.
 
 ## Results
 
